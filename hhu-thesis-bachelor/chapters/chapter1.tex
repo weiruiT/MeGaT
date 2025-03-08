@@ -1,0 +1,86 @@
+%% This is file 'chapter1.tex'
+%% It is included by hhuthesis-example.tex for hhuthesis.
+%%
+%% Copyright(C) 2020-2021, Wenhan Cao
+%% College of Water Conservancy and Hydropower Engineering, Hohai University.
+%%
+%% Version:v2.0.0
+%% Last update: April 7th, 2021.
+%%
+%% Home Page of the Project: https://github.com/caowenhan/thesis
+%%
+%% This file may be distributed and / or modified under the conditions of the
+%% LaTeX Project Public License, either version 1.3c of this license or (at your
+%% option) any later version. The latest version of this license is in:
+%%
+%% http://www.latex-project.org/lppl.txt
+%%
+%% and version 1.3c or later is part of all distributions of LaTeX version
+%% 2008/05/04 or later.
+%%
+\chapter{引言}
+\label{chap:introduction}
+\section{MeV 伽马天文物理背景}
+\label{sec:meaning}
+
+作为高能天体物理研究的重要窗口，MeV伽马射线天文学正成为探索极端宇宙的新前沿。在伽马射线能谱中，0.1--100 MeV能段承载着独特的物理信息：该能域覆盖了正负电子湮灭线（511 keV），
+放射性元素衰变线（如 $^{26}$Al 的 1.809 MeV 线）、脉冲星曲率辐射峰值等特征辐射，同时也是研究暗物质粒子湮灭/衰变信号、原初黑洞蒸发效应的关键探测窗口。然而受制于康普顿望远镜的空间
+分辨限制和探测效率瓶颈，该能段的系统观测长期处于“MeV 能量间隙”的状态，这也使得MeV伽马天空仍存在大量未解之谜。因此，开发高能分辨率、大视场、高探测效率的MeV伽马望远镜成为
+高能天文学界的共同迫切需求。\par
+当前学界内围绕该能段已形成若干突破方向：在观测技术层面，康普顿成像与电子追踪技术的结合正在实现MeV偏振测量，这将为揭示伽马暴中心引擎结构、耀变体喷流磁流体特性提供新维度；
+在理论建模方面，MeV耀变体的特殊光变特征挑战着传统轻子模型，推动着强子主导辐射机制和粒子加速过程的研究；而通过MeV谱线巡天发现的银河系暗物质晕湮灭信号，正与Sub-GeV能段的
+原初黑洞蒸发伽马射线形成交叉验证，为解开暗物质本质之谜开辟新路径。这些研究方向共同构成了连接微观粒子物理与宏观宇宙演化的关键纽带，正在重塑我们对极端天体环境、早期宇宙遗迹
+和基本物理规律的理解框架。\par
+\subsection{$\pi$介子鼓包}
+\label{subsec:pion}
+在MeV伽马射线天文学的研究框架下，超新星遗迹作为银河系宇宙线加速源的核心地位正经历革命性观测验证。理论模型指出，这类遗迹的激波波前通过扩散激波加速（DSA）机制，可将质子加速至PeV能级
+(即"膝区"能量)，其过程中高能质子与星际介质碰撞产生的中性$\pi^{0}$介子衰变($\pi^{0} \rightarrow 2\gamma$)，会在$\gamma$射线能谱的50-200 MeV区间形成特征性鼓包结构——这被视为宇宙线
+强子加速过程的"指纹证据"。然而，现有伽马望远镜在MeV能段的灵敏度缺失，导致该关键谱形长期无法被完整解析：Fermi-LAT在GeV以上能区虽已观测到多个遗迹的强子辐射成分(如IC 443和W44中2.2 MeV中子俘获线的关联信号)，
+但无法区分10-300 MeV能段内轻子同步辐射与强子$\pi^{0}$衰变的混合贡献；而COMPTEL等早期MeV探测器受限于＞3°的角分辨率，难以实现致密遗迹的空间分辨谱诊断。
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/Pi介子鼓包.png}
+	\caption{$\pi$介子鼓包} \label{fig:pion}
+	%硕士论文、本科毕业论文不使用双语图表标题，可使用命令\caption{}替代\caption{}
+\end{figure}
+\subsection{暗物质与原初黑洞}
+\label{subsec:darkmatter}
+在暗物质本质的百年探寻中，原初黑洞（Primordial Black Holes, PBHs）因其诞生于宇宙早期相变的独特属性，始终占据着候选者名录的核心位置。根据霍金辐射理论，质量在$10^{16}-10^{17}g$范围内的PBHs
+正处于蒸发末期，其事件视界量子隧穿效应会释放以光子为主导的粒子流，形成特征性的keV-MeV能段热辐射谱——这一能域恰与MeV伽马天文观测的核心敏感区间高度契合。理论计算表明，单个蒸发PBH的瞬时伽马辐射流量在1 MeV处可达
+$10^{-7}MeV/(cm^2s)$量级。，其全天空累积辐射更可能构成弥漫性MeV背景辐射的未解析成分。这使得MeV能段成为检验PBH暗物质假说的"战略频段"：通过精确测量宇宙伽马背景能谱的软X射线至MeV能段(0.1-10 MeV)的谱形畸变，
+可直接约束PBH质量分布函数$f_{PBH}(M)$在关键参数空间($M \sim 10^{16} g$)的分布，进而验证或排除PBH作为暗物质的可能性。
+然而，这一科学目标的实现长期受困于两大技术壁垒：其一，蒸发PBH的辐射信号在MeV能段呈现宽谱特性($dN/dE \propto E_{-3} $)，易与活动星系核（AGN）的幂律辐射、超新星遗迹的π⁰衰变连续谱等天体物理背景混淆；
+其二，现有康普顿望远镜(如COMPTEL)在1 MeV附近的灵敏度仅达$10^{-5} MeV/(cm^2 s)$，难以探测PBH蒸发预期的微弱各向异性信号。
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/暗物质与原初黑洞.png}
+	\caption{暗物质与原初黑洞} \label{fig:darkmatter}
+	%硕士论文、本科毕业论文不使用双语图表标题，可使用命令\caption{}替代\caption{}
+\end{figure}
+
+\section{装置指标需求}
+
+\subsection{水力模拟研究综述}
+河网非恒定流的水力特性模拟研究时水利、航运及环保等部门经常进行的工作\cite{liyitian1997}。由于河网区域范围广大，因此只能采用数值方法进行模拟。……\par
+……\par
+……
+
+\subsubsection{水力数值模拟方法研究}
+按控制方程及对河网处理方式的不同，数值模拟方法可分为两大类：第一类为人们所熟知的圣维南方程组求解法，第二类为由法国Jean A.Cunge提出的所谓“组合单元法”\cite{halts1996}。……\par
+……\par
+……\par
+……
+
+\section{MeGaT 实验方案与指标预期}
+作为本文核心部分，作者深入系统地研究了平原河网水量水质数值模拟的正反两方面的问题。首次提出用“组合单元法”数值模拟平原河网水力水质特性，分别给出了水量、水质数值模拟的正问题的稀疏矩阵求解方程式及单元分组求解方程式，为平原河网水量水质数值计算开辟了一条新的途径。在正问题的基础上，首次提出：生成基本解，用基本解构造水质边界条件反问题及源项反问题，并采用优化方法中诸如简约梯度法等方法以及遗传算法等方法分别对无约束及有约束的非线性规划问题进行求解。……\par
+……\par
+……\par
+本文的主要研究内容见图\ref{fig:maincontents}。
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figure1.jpg}
+	\caption{论文的主要研究内容} \label{fig:maincontents}
+	%硕士论文、本科毕业论文不使用双语图表标题，可使用命令\caption{}替代\caption{}
+\end{figure}
+
