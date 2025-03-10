@@ -82,32 +82,131 @@ $10^{-7}MeV/(cm^2s)$量级。，其全天空累积辐射更可能构成弥漫性
 	MeGaT望远镜的核心指标需求之二是在MeV能段实现角分辨率提升，以区分超新星遗迹的强子π⁰衰变与轻子同步辐射的混合贡献。在100 MeV处，MeGaT望远镜的角分辨率需达到0.8°，通过TPC的三维径迹重建与CZT的高位置分辨率，实现亚度级定位（如0.8°@100 MeV），从而区分密集天体源并解析π⁰鼓包谱形。
 \subsubsection{偏振度探测}
 	MeGaT望远镜的核心指标需求之三是在MeV能段实现偏振度探测，以研究耀变体喷流的磁流体特性。MeGaT望远镜的偏振度探测精度需达到5\%以内，以实现高精度的偏振测量。
-\subsubsection{时间投影室}
-	MeGaT望远镜的核心指标需求之四是在MeV能段实现时间投影室，以捕捉耀变体喷流的亚毫秒级爆发信号。MeGaT望远镜的时间投影室需实现符合测量，以抑制本底并捕捉爆发信号。
+\subsubsection{本底抑制技术}
+	MeGaT望远镜的核心指标需求之四是在MeV能段实现偏本底抑制。
+	采用双探测模态（如TPC+CZT）的符合测量，结合时间-能量-空间多维筛选，使本底抑制效率达$10^{4}$量级，例如通过抗辐照SiPM技术降低噪声干扰。
 \subsubsection{空间分辨率}
 	MeGaT望远镜的核心指标需求之五是在MeV能段实现空间分辨率，以定位银河系暗物质晕的空间分布。MeGaT望远镜的空间分辨率需达到亚度级，以实现高精度的空间分布测量。
-\section{国内外研究现状}
+	
+\section{MeV伽马射线望远镜的国内外研究现状}
 \label{sec:status}
-\subsection{MeV伽马射线天文学研究现状}
-MeV伽马射线天文学是高能天体物理研究的重要分支，其研究对象包括超新星遗迹、暗物质、原初黑洞等。MeV伽马射线天文学的研究方法主要包括观测、理论模拟和数据分析等。目前，国际上已经有多个MeV伽马射线望远镜项目，如Fermi-LAT、COMPTEL等，这些望远镜在MeV能段的观测数据为MeV伽马射线天文学的研究提供了重要的信息。此外，国际上还有一些关于MeV伽马射线天文学的理论模拟和数据分析的研究工作，这些工作为MeV伽马射线天文学的研究提供了理论基础和数据支持。\par
-\subsection{MeGaT望远镜研究现状}
-MeGaT望远镜是一种新型的MeV伽马射线望远镜，具有高能分辨率、大视场、高探测效率等优点。MeGaT望远镜的研究工作主要包括望远镜的设计、制造、测试等方面。目前，国内外已经有一些关于MeGaT望远镜的研究工作，这些工作主要集中在望远镜的设计和制造方面，为MeGaT望远镜的研究和应用提供了重要的支持。\par
-\subsection{MeGaT望远镜的研究进展}	
-MeGaT望远镜是一种新型的MeV伽马射线望远镜，具有高能分辨率、大视场、高探测效率等优点。MeGaT望远镜的研究工作主要包括望远镜的设计、制造、测试等方面。目前，国内外已经有一些关于MeGaT望远镜的研究工作，这些工作主要集中在望远镜的设计和制造方面，为MeGaT望远镜的研究和应用提供了重要的支持。\par
+MeV伽马射线天文学是高能天体物理研究的重要分支，其研究对象包括超新星遗迹、暗物质、原初黑洞等。MeV伽马射线天文学的研究方法主要包括观测、理论模拟和数据分析等。目前，国际上已经有多个MeV伽马射线望远镜项目，如Fermi-LAT、COMPTEL等，
+这些望远镜在MeV能段的观测数据为MeV伽马射线天文学的研究提供了重要的信息。\par
+此外，国际上还有一些关于MeV伽马射线天文学的理论模拟和数据分析的研究工作，这些工作为MeV伽马射线天文学的研究提供了理论基础和数据支持。\par
+\subsection{HARPO：伽马射线偏振测量与角度测量}
+\subsubsection{HARPO的科学目标}
+
+\subsubsection{HARPO的工作原理}
+
+\subsubsection{HARPO的实验配置}
+	HARPO原型是一个30厘米立方体的TPC，可以在低压力至5巴的压力下操作。它被6个闪烁体板包围，提供外部触发信号。放大过程由两个GEM(气体电子倍增器)和一个
+	micromegas组成。读出系统包括两个系列(x, y, 垂直于彼此)的288个铜条，间距为1毫米。
+
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\includegraphics[width=0.75\textwidth]{figures/HA演示装置.png}
+			\caption{HA演示装置}
+			\label{fig:sub1}
+		\end{subfigure}
+		\hspace{0.01\textwidth} % 调整间距
+		\begin{subfigure}[b]{0.45\textwidth}
+			\includegraphics[width=0.75\textwidth]{figures/HA设计草图.png}
+			\caption{HA设计草图}
+			\label{fig:sub2}
+		\end{subfigure}
+		\caption{HARPO的实验配置}
+		\label{fig:figures}
+	\end{figure}
+\subsubsection{HARPO的实验模拟}
+HARPO 探测器的立方设计使得其解析解不可得，文章中采用数值模拟的方法去模拟探测器的响应。它包括:\par
+• 提供正负电子对能量动量的光子转换事件发生器；\par
+• 基于 Geant4，模拟正负电子对与气体的相互作用；\par
+• 对 TPC 工作过程和几何形状的描述的模块，它提供了与真实数据类似的信号图。
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\centering %图片居中
+	\includegraphics[width=0.55\textwidth]{Figures/校正漂移信号结果.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\caption{数据(红色)和模拟(蓝色)中宇宙射线样本的信号大小(有效值)与漂移距离的函数关系,可见数据和模拟结果非常吻合} %最终文档中希望显示的图片标题
+\end{figure}
+\subsubsection{HARPO的数据分析}
+1.偏振测量结果\par
+使用HARPO开发的一个特定的重建算法来重建TPC中的顶点，从而提取电子和正电子的方位角$\phi_{+-}$。$\phi_{+-}$的分布预期将遵循一个包含偏振不对称性A和偏振方向$\phi_{0}$的分布。
+通过将极化和非极化光子的$\phi_{+-}$分布相除，可以消除系统误差。结果如图：
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\centering %图片居中
+	\includegraphics[width=0.7\textwidth]{figures/18HA测量结果.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\caption{11.8 MeV 光子束的极化调制(左上角两个分布均为真实数据。右上角两种分布都是模拟的。下图中偏振光分布来自真实光束数据，非偏振光分布来自模拟数据)} %最终文档中希望显示的图片标题
+\end{figure}
+2.角度测量结果\par
+• 未能直接测量反冲核的动量大小，其贡献记作$\sigma_{recoil}$；\par
+• 未能直接测量两个粒子的动量大小，其贡献记为$\sigma_{p}$；\par
+• 对单个带电粒子探测器视域(场)有限。
+将$\sigma_{\theta,68\%}$记作粒子数68\%的包含角(即距$\sigma_{\theta}$平均值一个标准差内)，模拟部分结果如图：
+\begin{figure}[htbp]
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=0.75\textwidth]{figures/探测器模拟结果.png}
+		\caption{11.8 MeV 光子光束的残角$\theta$对分布。黑点为光束测量值。黄色圆圈显示的是使用了蒙特卡洛的全部4向量信息的QED极限。
+		洋红色三角形显示的是仅使用蒙特卡洛中的轨道方向(动量大小未知)得出的残差，青色三角形显示的是开角剪切对该分布的影响。
+		绿色正方形显示的是考虑了整个探测器模拟的分布，包括康普顿和三重事件的污染。数据与全探测器模拟一致。}
+		\label{fig:sub3}
+	\end{subfigure}
+	\hspace{0.01\textwidth} % 调整间距
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[width=0.75\textwidth]{figures/角分辨率与能量关系.png}
+		\caption{68\%包容角与光束能量的函数关系。黑点表示在光束中的测量结果。绿色正方形显示的是模拟的结果，
+		包括康普顿和三重事件的污染。洋红色三角形只考虑在没有动量大小测量的情况下的QED极限。
+		青色三角形只考虑事件选择对分辨率的影响。黄色圆圈表示在不测量反冲核的情况下的QED极限。
+		虚线和点线表示费米-LAT对前转换和后转换事件的角度分辨率。}
+		\label{fig:sub4}
+	\end{subfigure}
+	\caption{HARPO的实验模拟结果}
+	\label{fig:figures2}
+\end{figure}
+
+
+\subsection{e-ASTROGAM: 伽马射线天文学的新视野}
+
+\subsubsection{e-ASTROGAM的科学动机}
+
+\subsubsection{e-ASTROGAM的设计目标}
+
+\subsubsection{e-ASTROGAM的仪器设计}
+
+\subsubsection{e-ASTROGAM的仪器优势}
+
+\subsubsection{e-ASTROGAM的数据分析}
+
+
+
 \subsection{MeGaT望远镜的研究前景}
 MeGaT望远镜是一种新型的MeV伽马射线望远镜，具有高能分辨率、大视场、高探测效率等优点。MeGaT望远镜的研究前景非常广阔，可以应用于超新星遗迹、暗物质、原初黑洞等领域的研究。未来，MeGaT望远镜有望成为MeV伽马射线天文学研究的重要工具，为我们揭示宇宙的奥秘提供重要的信息。\par
 
 
 \section{MeGaT 实验方案与指标预期}
-作为本文核心部分，作者深入系统地研究了平原河网水量水质数值模拟的正反两方面的问题。首次提出用“组合单元法”数值模拟平原河网水力水质特性，分别给出了水量、水质数值模拟的正问题的稀疏矩阵求解方程式及单元分组求解方程式，为平原河网水量水质数值计算开辟了一条新的途径。在正问题的基础上，首次提出：生成基本解，用基本解构造水质边界条件反问题及源项反问题，并采用优化方法中诸如简约梯度法等方法以及遗传算法等方法分别对无约束及有约束的非线性规划问题进行求解。……\par
-……\par
-……\par
-本文的主要研究内容见图\ref{fig:maincontents}。
+\label{sec:plan}
+\subsection{MeGaT实验方案}
+MeGaT（MeV Gamma-ray Telescope）探测系统作为新一代高气压时间投影室（TPC）技术的里程碑式应用，其创新性架构旨在突破MeV伽马天文长期面临的空间分辨与灵敏度瓶颈。该系统采用双模态复合探测器设计，
+通过高气压TPC+Micromegas电子径迹成像模块与像素化半导体/闪烁体量能器的协同工作，实现了对康普顿散射过程的全事件重建：
+\subsubsection{TPC+Micromegas电子径迹重建模块}
+	TPC+Micromegas电子径迹重建模块是MeGaT探测系统的核心部件，其主要功能是实现高能分辨率、大视场、高探测效率的MeV伽马射线探测。该模块采用高气压TPC技术，结合Micromegas电子径迹成像技术，
+	实现了对MeV伽马射线的高能分辨率探测。该模块的设计和制造工艺对MeGaT探测系统的性能有重要影响，是MeGaT探测系统的关键技术之一。
+	基于10 bar氙基气体环境，康普顿散射电子在TPC内产生电离径迹，通过Micromegas微网探测器实现三维径迹重建，空间分辨率达0.3 mm(RMS)，角分辨率达0.8°@100 MeV。\par
+\subsubsection{像素化半导体/闪烁体量能器}
+	像素化半导体/闪烁体量能器是MeGaT探测系统的辅助部件，其主要功能是实现对MeV伽马射线的高能量分辨率探测。该模块采用像素化半导体/闪烁体量能器技术，结合TPC+Micromegas电子径迹重建模块，
+	实现了对MeV伽马射线的高能量分辨率探测。该模块的设计和制造工艺对MeGaT探测系统的性能有重要影响，是MeGaT探测系统的关键技术之一。
+	基于像素化半导体/闪烁体量能器技术，实现对MeV伽马射线的高能量分辨率探测，能量分辨率达到1\%（FWHM），探测效率达到10\%。\par
+\subsection{MeGaT实验原理}
 
+\subsection{MeGaT实验指标预期}
+
+
+本文的主要研究内容见图\ref{fig:maincontents}。
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{figure1.jpg}
-	\caption{论文的主要研究内容} \label{fig:maincontents}
+	\caption{论文的主要研究内容} 
+	\label{fig:maincontents}
 	%硕士论文、本科毕业论文不使用双语图表标题，可使用命令\caption{}替代\caption{}
 \end{figure}
 
