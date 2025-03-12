@@ -117,8 +117,10 @@ MeV伽马射线天文学是高能天体物理研究的重要分支，其研究�
 			%硕士论文、本科毕业论文不使用双语图表标题，可使用命令\caption{}替代\caption{}
 		\end{figure}
 \subsubsection{HARPO的实验配置}
-	HARPO原型是一个30厘米立方体的TPC，可以在低压力至5巴的压力下操作。它被6个闪烁体板包围，提供外部触发信号。放大过程由两个GEM(气体电子倍增器)和一个
-	micromegas组成。读出系统包括两个系列(x, y, 垂直于彼此)的288个铜条，间距为1毫米(如图\ref{fig:sub1}\ref{fig:sub2})。
+HARPO探测器是一个30立方厘米的TPC，在2.1bar的压力下充满氩气：异丁烷比为95:5混合气体。它配备了一个漂移笼，提供220V/cm的漂移场。气体电离产生的电子以恒定的速度
+$v_{drift}\approx 3.3cm/μs$ 
+沿电场漂向读出平面。读出平面配有两个气体电子倍增器(GEM)和一个微网状气体结构(Micromegas)，用于放大电子。放大后的电子信号由两组垂直的条带（X 方向上的规则条带和Y方向上
+由底层条带连接在一起的垫片）收集。通过一组AFTER芯片和相关的前端卡(FEC)读出这些条带的信号并将其数字化。(如图\ref{fig:sub1}\ref{fig:sub2})。
 	\begin{figure}[htbp]
 		\centering
 		\begin{subfigure}[b]{0.45\textwidth}
@@ -192,6 +194,11 @@ e-ASTROGAM（增强型ASTROGAM）是一个国际合作的科学项目，
 •\textbf{极限宇宙:}研究相对论性喷流和流出源的物理过程，包括粒子加速机制和磁场的作用。\par
 •\textbf{高能粒子的起源和影响: }研究低能宇宙射线的起源和传播，测量宇宙射线在星际云中的扩散及其对气体动力学的影响。\par
 •\textbf{核合成和化学演化: }通过探测关键的伽马射线谱线，研究银河系中不同同位素的产生和分布，揭示超新星爆炸的历史。\par
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\centering %图片居中
+	\includegraphics[width=0.7\textwidth]{figures/e-ASTROGAM项目可视化.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+	\caption{e-ASTROGAM项目科学目标} %最终文档中希望显示的图片标题
+\end{figure}
 \subsubsection{e-ASTROGAM的设计目标}
 •能量覆盖范围广（0.3 MeV 至 3 GeV），与以前的仪器相比，0.3-100 MeV 范围内的连续谱灵敏度提高了两个数量级(跟踪器的能量下限可低至 150 keV，尽管角度分辨率会迅速降低，热量探测的能量下限可低至30 keV)；\par
 •灵敏度：对伽马射线灵敏度更高，提供比现有仪器高1-2个数量级的灵敏度(如对Type Ia SNe的 847 keV 伽马射线的线灵敏度比 INTEGRAL/SPI 高 70 倍)；\par
