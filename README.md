@@ -1,2 +1,2 @@
 # MeGaT
-Some try on data analysis.
+To simplify the process of information trasmission,I put up my article work here.
